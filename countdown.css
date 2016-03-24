@@ -1,6 +1,100 @@
-
-
 @import url(http://fonts.googleapis.com/css?family=Teko:300,700);
 
-body { margin: 0; padding: 0; background-color: #092f6e; color: #fff; }
+body { margin: 0; padding: 0; background-color: #000; color: #fff; }
 
+#premiere {
+    font-size: 16px;
+    font-family: 'Teko', sans-serif;
+    width: 500px;
+    margin: 25px auto;
+    border: 1px solid rgba(255,255,255,.2);
+    background: #000 url(batty.jpg) no-repeat center bottom;
+    min-height: 575px;
+}
+
+#premiere .heading {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 5px 0px 0px 0px;
+    margin: 0px 0px 30px 0px;
+}
+
+#premiere h1 {
+    font-size: 4.2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 70px;
+    margin: 0px 0px 0px -5px;
+    padding: 0;
+    text-align: center;
+}
+
+#premiere h2 {
+    font-size: 1.5em;
+    color: #c0c0c0;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 18px;
+    margin-top: 2%;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 9px;
+}
+
+#premiere .countdown {
+    text-shadow: 2px 2px 4px #000;
+}
+
+#premiere .countdown .countdown-row {
+    display: block;
+    text-align: center;
+    margin-top: -2%;
+}
+
+#premiere .countdown .countdown-section {
+    display: inline-block;
+    width: 95px;
+}
+
+#premiere .countdown .countdown-amount {
+    display: block;
+    color: #fff;
+    font-size: 4.6em;
+    line-height: 45px;
+}
+
+#premiere .countdown .countdown-period {
+    display: block;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: silver;
+}
+
+@media screen and (max-width: 525px)  {
+    #premiere {
+        font-size: 12px;
+        width: 300px;
+        min-height: 465px;
+        background-size: 400px auto;
+    }
+
+    #premiere .heading {
+        padding: 12px 0 8px 0px;
+        margin-bottom: 20px;
+    }
+
+    #premiere h1 {
+        line-height: 40px;
+        font-size: 3.7em;
+    }
+
+    #premiere h2 {
+        line-height: 22px;
+        letter-spacing: 5px;
+    }
+
+    #premiere .countdown .countdown-section {
+        width: 68px;
+    }
+}
